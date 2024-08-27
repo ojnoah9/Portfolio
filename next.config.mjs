@@ -1,8 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["skillicons.dev"], // Add other domains if needed
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.skillicons.dev",
+        port: "",
+        pathname: "/icons/**", // Adjust this if your path is different
+      },
+    ],
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
