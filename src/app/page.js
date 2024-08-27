@@ -72,7 +72,7 @@ export default function Home() {
 
             <div className="items-center p-5 sm:py-20">
               <h2 className="text-3xl py-2 text-center md:text-left text-black font-extrabold mt-[-2rem] md:mt-1 sm:mt-[-10rem] md:text-6xl dark:text-teal-600 md:items-center md:justify-center">
-                <span className="text-3xl">F</span>ront-End React Developer
+                <span className="text-6xl">F</span>ront-End React Developer
               </h2>
               <p
                 className="text-md max-w-lg py-2 leading-8 text-center md:text-left sm:text-center md:text-lg
