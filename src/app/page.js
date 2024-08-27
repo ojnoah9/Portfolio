@@ -78,9 +78,9 @@ export default function Home() {
                 className="text-md max-w-lg py-2 leading-8 text-center md:text-left sm:text-center md:text-lg
                 md:justify-center sm:justify-center sm:ml-20 md:ml-1 text-gray-800 dark:text-green-200 md:items-center sm:items-center"
               >
-                <span className="text-md">H</span>i, I'm Noah Samuel Ojima-ojo.
-                A passionate Front-end React Native Developer based in Abuja,
-                Nigeria. 📍
+                <span className="text-md">H</span>i, I&apos;m Noah Samuel
+                Ojima-ojo. A passionate Front-end React Native Developer based
+                in Abuja, Nigeria. 📍
               </p>
             </div>
 
@@ -181,7 +181,7 @@ export default function Home() {
               className="text-md max-w-lg py-2 leading-8 text-center md:text-center sm:text-center md:text-lg
                md:justify-center sm:justify-center sm:ml-15 md:ml-12 text-gray-800 dark:text-green-200 md:items-center sm:items-center mb-8"
             >
-              Ready to elevate your digital presence? Let's collaborate and
+              Ready to elevate your digital presence? Let&apos;s collaborate and
               bring your vision to life! Hit me up for top-notch front-end
               development.
             </h3>
