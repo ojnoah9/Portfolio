@@ -11,7 +11,7 @@ import { CiMail } from "react-icons/ci";
 import { useState } from "react";
 
 // Update the path for the image to be used with next/image
-const Deved = "/IMGy.jpg";
+import Deved from "../public/IMGy.jpg"; // Adjust the path according to your project structure
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -72,16 +72,15 @@ export default function Home() {
 
             <div className="items-center p-5 sm:py-20">
               <h2 className="text-3xl py-2 text-center md:text-left text-black font-extrabold mt-[-2rem] md:mt-1 sm:mt-[-10rem] md:text-6xl dark:text-teal-600 md:items-center md:justify-center">
-                <span className="text-3xl::first-letter">F</span>ront-End React
-                Developer
+                <span className="text-3xl">F</span>ront-End React Developer
               </h2>
               <p
                 className="text-md max-w-lg py-2 leading-8 text-center md:text-left sm:text-center md:text-lg
                 md:justify-center sm:justify-center sm:ml-20 md:ml-1 text-gray-800 dark:text-green-200 md:items-center sm:items-center"
               >
-                <span className="text-md::first-letter">H</span>i, I'm Noah
-                Samuel Ojima-ojo. A passionate Front-end React Native Developer
-                based in Abuja, Nigeria. 📍
+                <span className="text-md">H</span>i, I'm Noah Samuel Ojima-ojo.
+                A passionate Front-end React Native Developer based in Abuja,
+                Nigeria. 📍
               </p>
             </div>
 
@@ -122,10 +121,12 @@ export default function Home() {
                   <ul className="flex flex-wrap gap-x-6 md:gap-x-12 justify-center">
                     {skillsIcons.map((icon) => (
                       <li key={icon.id} className="cursor-pointer">
-                        <img
+                        <Image
                           src={icon.img}
                           alt="skill-icon"
-                          className="mb-10 md:mb-20 w-24 h-12 md:w-32 md:h-16 transition-transform duration-300 ease-in-out hover:-translate-y-1"
+                          width={128} // Define width
+                          height={64} // Define height
+                          className="mb-10 md:mb-20 transition-transform duration-300 ease-in-out hover:-translate-y-1"
                         />
                       </li>
                     ))}
