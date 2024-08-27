@@ -10,8 +10,8 @@ import { TfiLocationPin } from "react-icons/tfi";
 import { CiMail } from "react-icons/ci";
 import { useState } from "react";
 
-// Update the path for the image to be used with next/image
-import Deved from "../public/IMGy.jpg"; // Adjust the path according to your project structure
+// Path for images in the public directory should be used directly
+const Deved = "/IMGy.jpg";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
