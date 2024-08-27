@@ -18,15 +18,15 @@ export default function Home() {
 
   const skillsIcons = [
     {
-      img: "https://skillicons.dev/icons?i=html,css",
+      img: "https://www.skillicons.dev/icons?i=html,css",
       id: 1,
     },
     {
-      img: "https://skillicons.dev/icons?i=js,tailwind",
+      img: "https://www.skillicons.dev/icons?i=js,tailwind",
       id: 2,
     },
     {
-      img: "https://skillicons.dev/icons?i=react,next",
+      img: "https://www.skillicons.dev/icons?i=react,next",
       id: 3,
     },
   ];
